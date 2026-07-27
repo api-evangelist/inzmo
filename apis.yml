@@ -1,8 +1,26 @@
 aid: inzmo
 name: INZMO
-description: INZMO is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: INZMO is a European insurtech, founded in 2017, delivering 100% digital,
+  embedded insurance for consumer goods and rental deposits. Its products cover mobile
+  phones, laptops and tablets, bicycles, e-scooters, and rental deposit warranties,
+  sold direct-to-consumer and embedded into partner checkout flows. INZMO offers partners
+  an embedded-insurance API that adds insurance to the customer journey with real-time
+  policy issuance, payment, and delivery of policy documents, and applies AI and large
+  language models to streamline fraud prevention and claims handling. INZMO is a portfolio
+  company of 500 Global.
 url: https://raw.githubusercontent.com/api-evangelist/inzmo/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://inzmo-prod-web-deu.s3.eu-central-1.amazonaws.com/thumbnail_Logo_43d17fa933.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Insurance
+- Insurtech
+- Embedded Insurance
+- Digital Insurance
+- Claims
+- Europe
+- API
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +48,24 @@ maintainers:
 common:
 - type: Website
   url: https://inzmo.com
+- type: DeveloperPortal
+  url: https://api.inzmo.com/
+- type: Login
+  url: https://self-service.inzmo.com/en
+- type: Support
+  url: https://inzmo.com/deu/en/contact
+- type: Partners
+  url: https://inzmo.com/deu/en/partners
+- type: TermsOfService
+  url: https://inzmo.com/deu/en/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://inzmo.com/deu/en/privacy-policy
+- type: DomainSecurity
+  url: security/inzmo-domain-security.yml
+- type: LLMsTxt
+  url: llms/inzmo-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
